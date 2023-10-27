@@ -1,0 +1,52 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #a09c9c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.about {
+    background-color: #f7f0f0;
+}
+
+.portfolio {
+    background-color: #f7f0f0;
+}
+
+.contact {
+    background-color: #a09c9c;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+
